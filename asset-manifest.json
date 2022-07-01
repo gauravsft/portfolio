@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.12b55971.css",
+    "main.js": "/my-app/static/js/main.ea6365fe.js",
+    "static/media/pharmeasy.JPG": "/my-app/static/media/pharmeasy.138597e677c47d9f50fb.JPG",
+    "static/media/bewakoof.JPG": "/my-app/static/media/bewakoof.74fd719ab7da81e663dd.JPG",
+    "static/media/policybazar.JPG": "/my-app/static/media/policybazar.4d9f4128c5218b5d849d.JPG",
+    "static/media/expanse.JPG": "/my-app/static/media/expanse.5993dd04e7c5626481f3.JPG",
+    "static/media/postman.png": "/my-app/static/media/postman.f2340465458161747288.png",
+    "static/media/react.png": "/my-app/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/nodejs.png": "/my-app/static/media/nodejs.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/my-app/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/vscode.png": "/my-app/static/media/vscode.f43fb4fb465bfb9aede2.png",
+    "static/media/html.png": "/my-app/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/my-app/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/my-app/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/avatar.svg": "/my-app/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/javascript.png": "/my-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/my-app/index.html",
+    "main.12b55971.css.map": "/my-app/static/css/main.12b55971.css.map",
+    "main.ea6365fe.js.map": "/my-app/static/js/main.ea6365fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b55971.css",
+    "static/js/main.ea6365fe.js"
+  ]
+}
