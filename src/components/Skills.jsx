@@ -70,6 +70,7 @@ const Skills = () => {
 
   return (
     <div
+      style={{marginTop:"50px"}}
       name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
