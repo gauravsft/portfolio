@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from "../assets/avatar.svg";
+import ProfileImage from "../assets/gaurav.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-6">
           Hi 👋,<br />
 I'am Gaurav <br />
 MERN Stack Developer
@@ -41,7 +41,7 @@ and some other cool libraries and frameworks.</p> */}
           <img
             src={ProfileImage}
             alt="my profile"
-            className="rounded-12xl mx-auto w-2/3 md:w-96 p-4"
+            className=" mx-auto w-2/5 md:w-96 p-4 rounded-full"
           />
         </div>
       </div>
