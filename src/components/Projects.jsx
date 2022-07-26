@@ -26,7 +26,7 @@ const Projects = () => {
       id: 2,
       src: policybazar,
       live : "https://policy-bazaar-clone.netlify.app",
-      code : "https://github.com/gauravsft/bewakoof.github.io",
+      code : "https://github.com/gauravsft/policybazaar-clone",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       id: 4,
       src: pharmeasy,
-      live : "https://github.com/gauravsft/pharmeasy.in-clone",
+      live : "https://pharmeasy-clone-react.netlify.app/",
       code : "https://github.com/gauravsft/pharmeasy.in-clone"
     },
     
