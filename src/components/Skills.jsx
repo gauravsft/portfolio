@@ -7,7 +7,6 @@ import reactImage from "../assets/react.png";
 import nodejs from "../assets/nodejs.png";
 import postman from "../assets/postman.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
 import vscode from "../assets/vscode.png";
 
 const Skills = () => {
@@ -38,30 +37,24 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
       src: nodejs,
       title: "Node JS",
       style: "shadow-white",
     },
     {
-      id: 7,
+      id: 6,
       src: postman,
       title: "Postman",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 8,
       src: vscode,
       title: "VS Code",
       style: "shadow-gray-400",

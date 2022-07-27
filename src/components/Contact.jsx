@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (
@@ -45,6 +46,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <SocialLinks/>
     </div>
   );
 };
