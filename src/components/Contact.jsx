@@ -1,5 +1,7 @@
 import React from "react";
-import SocialLinks from "./SocialLinks";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {BsWhatsapp} from 'react-icons/bs'
+import './projuct.css';
 
 const Contact = () => {
   return (
@@ -45,8 +47,31 @@ const Contact = () => {
             </button>
           </form>
         </div>
+        <div className="contact-container">
+             <a className="icon" href="https://www.linkedin.com/in/gauravsft/"  target="_blank"
+              rel="noreferrer"
+             
+             ><FaLinkedin size={50} />
+             <p>Linkedin</p>
+             </a>
+
+
+             <a className="icon" href= "https://github.com/gauravsft"
+              target="_blank"
+              rel="noreferrer"
+             >
+              <FaGithub size={50} />
+              <p>Github</p>
+             </a>
+             <a className="icon"  href= "https://api.whatsapp.com/send/?phone=917488585702&text&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+             >
+              <BsWhatsapp size={50}/>
+              <p>WhatsApp</p>
+             </a>
+           </div>
       </div>
-      <SocialLinks/>
     </div>
   );
 };
