@@ -56,18 +56,6 @@ const SocialLinks = () => {
       style: "rounded-br-md",
       
     }
-    ,
-    // {
-    //   id: 6,
-    //   child: (
-    //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
-    //     </>
-    //   ),
-    //   href: "/resume.pdf",
-    //   style: "rounded-br-md",
-    //   download: true,
-    // },
   ];
 
   return (
