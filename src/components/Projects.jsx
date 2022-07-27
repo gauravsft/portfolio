@@ -6,41 +6,44 @@ import expanse from "../assets/project/expanse.JPG";
 
 const Projects = () => {
 
-  const handleLink=(link)=>{
-    
-      window.open(link, "_blank")
-   
+  const handleLink = (link) => {
+
+    window.open(link, "_blank")
+
   };
 
-  
+
 
   const portfolios = [
     {
       id: 1,
-      name:"Bewakoof Web Clone",
+      name: "Bewakoof Web Clone",
+      tech: "HTML, CSS, JavaScript, Json-Server,DOM Api",
       src: bewakoof,
       live: "https://gauravsft.github.io/bewakoof.github.io/",
-      code:"https://github.com/gauravsft/bewakoof.github.io",
-      text :"Bewakoof is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy, contemporary Indian. Bewakoof was created on the principle of creating impact through innovation, honesty and thoughtfulness. "
+      code: "https://github.com/gauravsft/bewakoof.github.io",
+      text: "Bewakoof is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy, contemporary Indian. Bewakoof was created on the principle of creating impact through innovation, honesty and thoughtfulness. "
     },
     {
       id: 2,
-      name:"Policybazar Web Clone",
+      name: "Policybazar Web Clone",
       src: policybazar,
-      live : "https://policy-bazaar-clone.netlify.app",
-      code : "https://github.com/gauravsft/policybazaar-clone",
-      text : "Policybazaar is an app that offers all kinds of insurances and investment plans. Different sorts of insurance policies can be compared to get a better value product."
+      tech: "HTML, CSS, JavaScript, DOM Api",
+      live: "https://policy-bazaar-clone.netlify.app",
+      code: "https://github.com/gauravsft/policybazaar-clone",
+      text: "Policybazaar is an app that offers all kinds of insurances and investment plans. Different sorts of insurance policies can be compared to get a better value product."
     },
     {
       id: 3,
-      name:"Expense Tracker",
+      name: "Expense Tracker",
+      tech: "HTML, CSS, JavaScript",
       src: expanse,
-      live : "https://gauravsft.github.io/ExpenseTracker.github.io/",
-      code : "https://github.com/gauravsft/ExpenseTracker.github.io",
-      text : "Expencetracker is an app that offers mangae monthly income,expense and saving."
+      live: "https://gauravsft.github.io/ExpenseTracker.github.io/",
+      code: "https://github.com/gauravsft/ExpenseTracker.github.io",
+      text: "Expencetracker is an app that offers mangae monthly income,expense and saving."
     }
-    
-    
+
+
   ];
 
   return (
@@ -57,7 +60,7 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-12 sm:px-12 min-h-fit mb-8">
-          {portfolios.map(({ id, src,live,code,text,name }) => (
+          {portfolios.map(({ id, src, live, code, text, name, tech }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -65,23 +68,27 @@ const Projects = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="m-4 rounded-lg bg-green-800 flex items-center justify-center h-8">
-                  <h2 className="items-center">{name}</h2>
+                <h2 className="items-center">{name}</h2>
               </div>
               <hr />
               <div className="m-4  flex items-center  h-48">
-                  <h2 className="">{text}</h2>
+                <h2 className="">{text}</h2>
               </div>
               <hr />
-              <div className="m-4  flex items-center  h-24">
+              <div className="h-28">
+                <div className="m-4  flex items-center justify-center">
                   <h2 className=" items-center underline underline-offset-8 ... ">Tech Stack</h2>
-                  <h4></h4>
+                </div>
+                <div className="m-4  flex items-center justify-center ">
+                  <h4 className="items-center">{tech}</h4>
+                </div>
               </div>
               <hr />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={()=>handleLink(live)}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => handleLink(live)}>
                   Live Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={()=>handleLink(code)}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => handleLink(code)}>
                   Code
                 </button>
               </div>
