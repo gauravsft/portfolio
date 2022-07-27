@@ -71,7 +71,7 @@ const Projects = () => {
                 <h2 className="items-center">{name}</h2>
               </div>
               <hr />
-              <div className="m-4  flex items-center  h-48">
+              <div className="m-4  flex items-center  h-60">
                 <h2 className="">{text}</h2>
               </div>
               <hr />
