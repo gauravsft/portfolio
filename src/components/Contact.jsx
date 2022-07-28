@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
-import './Project.css';
+import './projuct.css';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import {BsWhatsapp} from 'react-icons/bs'
 
