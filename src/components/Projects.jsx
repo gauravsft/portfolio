@@ -1,7 +1,7 @@
 import React from "react";
 import bewakoof from "../assets/project/bewakoof.JPG";
 import policybazar from "../assets/project/policybazar.JPG";
-import expanse from "../assets/project/expanse.JPG";
+import medium from "../assets/project/medium.JPG";
 
 
 const Projects = () => {
@@ -37,7 +37,7 @@ const Projects = () => {
       id: 3,
       name: "Medium Web Clone",
       tech: "React, NodeJs , ExpressJs , MongoDB , Chakra UI",
-      src: expanse,
+      src: medium,
       live: "https://medium-web-app.netlify.app/",
       code: "https://github.com/gauravsft/Medium-Clone",
       text: "Medium is a social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives."
