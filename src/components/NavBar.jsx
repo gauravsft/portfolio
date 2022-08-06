@@ -52,7 +52,7 @@ const NavBar = () => {
 
         <li>
         <a
-              href="/resume.pdf"
+              href="/resume1.pdf"
               className="px-4 cursor-pointer capitalize font-medium  hover:scale-105 duration-200"
               download={true}
               target="_blank"
