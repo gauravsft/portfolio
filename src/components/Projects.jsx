@@ -22,7 +22,7 @@ const Projects = () => {
       src: bewakoof,
       live: "https://gauravsft.github.io/bewakoof.github.io/",
       code: "https://github.com/gauravsft/bewakoof.github.io",
-      text: "Bewakoof is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy, contemporary Indian. Bewakoof was created on the principle of creating impact through innovation, honesty and thoughtfulness. "
+      text: "Bewakoof is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy, contemporary Indian."
     },
     {
       id: 2,
@@ -35,12 +35,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Expense Tracker",
-      tech: "HTML, CSS, JavaScript",
+      name: "Medium Web Clone",
+      tech: "React, NodeJs , ExpressJs , MongoDB , Chakra UI",
       src: expanse,
-      live: "https://gauravsft.github.io/ExpenseTracker.github.io/",
-      code: "https://github.com/gauravsft/ExpenseTracker.github.io",
-      text: "Expencetracker is an app that offers mangae monthly income,expense and saving."
+      live: "https://medium-web-app.netlify.app/",
+      code: "https://github.com/gauravsft/Medium-Clone",
+      text: "Medium is a social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives."
     }
 
 
